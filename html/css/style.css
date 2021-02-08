@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto Condensed');
+body{
+    font-family: 'Roboto Condensed',serif;
+}
+.nav-container{
+    display: flex; 
+    justify-content: space-between;
+    background: rgb(10, 218, 120);
+}
+.nav-container nav ul {
+    list-style: none;
+}
+.nav-container nav ul li,.nav-container nav ul a{
+    text-decoration: none;
+    display: inline-block;
+    width: 8rem;
+    text-align: center;
+    /* line-height: 2; */
+}
+.nav-container nav ul a{
+    padding: 1rem 0rem;
+    border-radius: 0.5rem;
+    background:rgb(9, 182, 101);
+}
+.nav-container nav ul a:hover{
+    padding: .9375rem 0rem;
+    background: rgb(2, 153, 83);
+    border: palegoldenrod 0.0625rem solid;
+}
+.nav-container button{
+    font-family: 'Roboto Condensed', serif;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 8rem;
+    height: 3rem;
+    border-style: none;
+    border-radius: 0.5rem;
+    background: rgb(9, 182, 101);
+    color: navy;
+    margin: 1rem;
+}
+.nav-container button:hover{
+    cursor: pointer;
+    height: 2.9375rem;
+    background: rgb(2, 153, 83);
+    border: palegoldenrod 0.0625rem solid;
+}
+.logo{
+    padding: 0.5rem;
+}
+
+footer{
+    text-align: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.5rem;
+}
+.grid-container .card{
+    min-height: 12rem;
+    width: 12rem;
+    background: teal;
+}
